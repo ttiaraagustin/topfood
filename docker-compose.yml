@@ -1,0 +1,8 @@
+version: '3'
+services:
+  app:
+    image: hidayatnurr/pratikum_popl_prak5:latest
+    volumes:
+      - D:/Go:/app
+    ports:
+      - "8080:8080"
